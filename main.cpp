@@ -1,25 +1,30 @@
 #include <SFML/Graphics.hpp>
+#include<iostream>
 
+using namespace std;
+using namespace sf;
 int main()
 {
+    const int SCREEN_WIDTH=800;
+    const int SCREEN_HEIGH=600;
     // Create the main window
-    sf::RenderWindow app(sf::VideoMode(800, 600), "Car Racing");
+    RenderWindow app(VideoMode(SCREEN_WIDTH, SCREEN_HEIGH), "Car Racing");
 
     // Load a sprite to display
-    sf::Texture texture;
+    Texture texture;
     if (!texture.loadFromFile("cb.bmp"))
         return EXIT_FAILURE;
-    sf::Sprite sprite(texture);
+    Sprite sprite(texture);
 
 	// Start the game loop
     while (app.isOpen())
     {
         // Process events
-        sf::Event event;
+        Event event;
         while (app.pollEvent(event))
         {
             // Close window : exit
-            if (event.type == sf::Event::Closed)
+            if (event.type == Event::Closed)
                 app.close();
         }
 
