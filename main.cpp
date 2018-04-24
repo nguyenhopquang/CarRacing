@@ -36,25 +36,27 @@ int main()
            Obs2X, Obs2Y,
            Obs3X, Obs3Y,
            Obs4X, Obs4Y;
+
 	RacerX=SCREEN_WIDTH/2;
 	RacerY=SCREEN_HEIGH-70;
 	Obs1X=getRandomNumber(borderLeft,borderRight);
-    Obs1Y=0;
+	Obs2X=getRandomNumber(borderLeft,borderRight);
+	Obs3X=getRandomNumber(borderLeft,borderRight);
+	Obs4X=getRandomNumber(borderLeft,borderRight);
+    Obs1Y=0,Obs2Y=0,Obs3Y=0,Obs4Y=0;
     while (app.isOpen())
     {
-
         Racer.setPosition(RacerX,RacerY);
         Obs1.setPosition(Obs1X,Obs1Y);
+
         if (Obs1Y>SCREEN_HEIGH)
         {
             Obs1Y=0;
             Obs1X=getRandomNumber(borderLeft,borderRight);
-
-        } else Obs1Y=Obs1Y+0.4;
+        } else {Obs1Y=Obs1Y+0.3;}
         Event event;
         while (app.pollEvent(event))
         {
-            // Close window : exit
             if (event.type == Event::Closed)
                 app.close();
             if (event.type == sf::Event::KeyPressed)
@@ -69,13 +71,11 @@ int main()
                         {if(RacerY<SCREEN_HEIGH-70){RacerY=RacerY+10;}}
                 }
         }
-
         app.clear();
         app.draw(Background);
         app.draw(Racer);
         app.draw(Obs1);
         app.display();
     }
-
     return EXIT_SUCCESS;
 }
