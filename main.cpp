@@ -160,7 +160,10 @@ int main()
     }
     return EXIT_SUCCESS;
 }
-
+int startGame()
+{
+    //TODO
+}
 //Game over
 int gameOver()
 {
