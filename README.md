@@ -6,7 +6,7 @@ First Car Racing game with C++ using SFML
 
 About this projet
 # INFORMATION
-This project is a university project created to discover C++ and the SFML library on a more or less proffesionnel level. It was made in a one month time so it isn't yet finished.
+This project is a university project created to discover C++ and the SFML library on a more or less proffesionnel level. It was made in a one month time so it isn't yet finished.  
 This project is still under developement, and will be continued even after the project dead line at a slower path.
 # Author:
 Nguyen Hop Quang
