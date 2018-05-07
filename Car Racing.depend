@@ -1,6 +1,9 @@
 # depslib dependency file v1.0
-1524578243 source:/home/nguyenhopquang/C++/Cuoi Ki/main.cpp
+1525660758 source:/home/nguyenhopquang/C++/Cuoi Ki/main.cpp
 	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
 	<iostream>
 	<cstdlib>
+	<ctime>
+	<string>
 

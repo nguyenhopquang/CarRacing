@@ -18,6 +18,7 @@
 					<Add library="sfml-graphics" />
 					<Add library="sfml-window" />
 					<Add library="sfml-system" />
+					<Add library="sfml-audio" />
 				</Linker>
 			</Target>
 			<Target title="Release">
@@ -33,6 +34,7 @@
 					<Add library="sfml-graphics" />
 					<Add library="sfml-window" />
 					<Add library="sfml-system" />
+					<Add library="sfml-audio" />
 				</Linker>
 			</Target>
 		</Build>
