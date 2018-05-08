@@ -27,6 +27,9 @@ Simply press the Complile and Run button
 Just like on Linux  
 Download the source code and open CarRacing.cbp with your Codeblocks  
 Simply press the Complile and Run button  
+# HOW TO PLAY
+Simply press ⇦ to turn left, ⇨ to turn right, ⇧ to go ahead and ⇩ to slow down your car.  
+The game speed is increasing while you reach a number of point
 
 # WHAT'S NEEDED TO RUN THE GAME
 The sfml library in provided only for linux version.  
