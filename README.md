@@ -4,6 +4,8 @@ First Car Racing game with C++ using SFML
 ![Image 1](https://i.imgur.com/3N7Z8Ja.png)
 ![Image 2](https://i.imgur.com/vqEKHY7.png)
 
+# Gameplay 
+https://www.youtube.com/watch?v=9fcHq2ihfEE
 About this projet
 # INFORMATION
 This project is a university project created to discover C++ and the SFML library on a more or less proffesionnel level. It was made in a one month time so it isn't yet finished.  
