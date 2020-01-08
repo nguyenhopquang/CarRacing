@@ -13,11 +13,11 @@ Nguyen Hop Quang
 Website: https://anonymousvn.org  
 Email: admin@anonymousvn.org
 # HOW TO RUN THE GAME
-## LINUX
+## UBUNTU
 
-### From Terminal
-Use the command : make, to compile  
-After compile you can run the game with command : ./carRacing
+### Fist install SFML and codeblocks
+Use the command : sudo apt install libsfml-dev to install SFML
+Use the command : sudo apt install codeblocks to install CodeBlocks or install it manually from here : http://www.codeblocks.org/downloads
 
 ### From Codeblocks
 Download the source code and open CarRacing.cbp with your Codeblocks  
@@ -42,3 +42,4 @@ All of the source code are in the main.cpp file.
 All of the fonts are in the font folder  
 All of the images are places in the cars folder  
 Musics are in the sound folder  
+Game Speed are depend on gameSpeed variables
